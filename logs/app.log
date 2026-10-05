@@ -1,0 +1,283 @@
+2026-10-05 19:21:37,203 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 19:21:37,211 - app.main - INFO - Starting FastAPI server...
+2026-10-05 19:21:37,231 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 19:21:37,363 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 19:21:37,364 - app.agent - INFO - Checking and initializing database...
+2026-10-05 19:21:37,377 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 19:23:56,776 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 19:23:56,778 - app.main - INFO - Starting FastAPI server...
+2026-10-05 19:23:56,788 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 19:23:56,849 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 19:23:56,849 - app.agent - INFO - Checking and initializing database...
+2026-10-05 19:23:56,859 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 19:24:56,047 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 19:24:56,049 - app.main - INFO - Starting FastAPI server...
+2026-10-05 19:24:56,055 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 19:24:56,111 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 19:24:56,111 - app.agent - INFO - Checking and initializing database...
+2026-10-05 19:24:56,121 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 19:24:57,588 - app.agent - DEBUG - Loaded MCP tools: ['get_current_time', 'list_dentists', 'get_dentist_profile', 'get_availability', 'update_patient_profile', 'upcoming_appointments', 'book_appointment', 'cancel_appointment', 'reschedule_appointment', 'close_conversation']
+2026-10-05 19:24:57,588 - app.agent - INFO - Creating agent graph...
+2026-10-05 19:24:59,298 - app.agent - INFO - Starting message consumer...
+2026-10-05 19:24:59,298 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 19:24:59,298 - app.agent - INFO - Starting conversation cleanup task...
+2026-10-05 19:40:59,144 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 19:40:59,147 - app.main - INFO - Starting FastAPI server...
+2026-10-05 19:40:59,152 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 19:40:59,218 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 19:40:59,218 - app.agent - INFO - Checking and initializing database...
+2026-10-05 19:40:59,226 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 19:58:34,274 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 19:58:34,276 - app.main - INFO - Starting FastAPI server...
+2026-10-05 19:58:34,279 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 19:58:34,340 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 19:58:34,341 - app.agent - INFO - Checking and initializing database...
+2026-10-05 19:58:34,350 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 19:58:35,240 - app.agent - DEBUG - Loaded MCP tools: ['get_current_time', 'list_dentists', 'get_dentist_profile', 'get_availability', 'update_patient_profile', 'upcoming_appointments', 'book_appointment', 'cancel_appointment', 'reschedule_appointment', 'close_conversation']
+2026-10-05 19:58:35,241 - app.agent - INFO - Creating agent graph...
+2026-10-05 19:58:36,888 - app.agent - INFO - Starting message consumer...
+2026-10-05 19:58:36,888 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 19:58:36,888 - app.agent - INFO - Starting conversation cleanup task...
+2026-10-05 20:25:34,905 - app.main - INFO - Received a GET request on /webhook for verification
+2026-10-05 20:25:34,918 - app.main - INFO - whatsapp webhook verified successfully
+2026-10-05 20:28:36,908 - app.agent - INFO - Running conversation cleanup task...
+2026-10-05 20:28:36,912 - app.agent - INFO - No active conversation threads found in checkpointer.
+2026-10-05 20:32:02,573 - app.main - INFO - Received a GET request on /webhook for verification
+2026-10-05 20:32:02,573 - app.main - INFO - whatsapp webhook verified successfully
+2026-10-05 20:39:21,026 - app.main - DEBUG - Verifying request signature
+2026-10-05 20:39:21,034 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 20:39:21,075 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 20:39:21,078 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '0', 'changes': [{'field': 'messages', 'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '16505551111', 'phone_number_id': '123456123'}, 'contacts': [{'profile': {'name': 'test user name'}, 'wa_id': '16315551181', 'user_id': 'US.13491208655302741918'}], 'messages': [{'id': 'ABGGFlA5Fpa', 'timestamp': '1504902988', 'from': '16315551181', 'from_user_id': 'US.13491208655302741918', 'type': 'text', 'text': {'body': 'this is a text message'}}]}}]}]}
+2026-10-05 20:39:21,080 - app.main - INFO - Incoming message from 16315551181: this is a text message
+2026-10-05 20:39:21,081 - app.agent - DEBUG - Enqueueing message from 16315551181
+2026-10-05 20:39:21,117 - shared.db - INFO - Patient created with id=1
+2026-10-05 20:39:21,128 - shared.db - DEBUG - Conversation created with id=1
+2026-10-05 20:39:21,132 - app.agent - INFO - Enqueuing message for patient 1 in conversation 1
+2026-10-05 20:39:21,146 - app.agent - DEBUG - Current state for conversation 1: StateSnapshot(values={}, next=(), config={'configurable': {'thread_id': '1'}}, metadata=None, created_at=None, parent_config=None, tasks=(), interrupts=())
+2026-10-05 20:39:21,147 - app.agent - INFO - No agent state found for conversation 1. Checking DB for history...
+2026-10-05 20:39:21,150 - app.agent - INFO - Updating state for conversation 1 with 0 messages and patient info.
+2026-10-05 20:39:21,180 - shared.db - DEBUG - Message added to conversation_id=1
+2026-10-05 20:39:21,248 - app.agent - DEBUG - Assistant node invoked with state: {'messages': [HumanMessage(content='this is a text message', additional_kwargs={}, response_metadata={}, id='e791b375-67a0-4401-b777-96492168aae7')], 'patient': Patient(id=1, name='New Patient', age=None, gender=None, phone_number='16315551181'), 'conversation_id': 1}
+2026-10-05 20:39:21,295 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'X-Stainless-Raw-Response': 'true'}, 'files': None, 'idempotency_key': 'stainless-python-retry-c142a89a-9b0c-4b34-a326-5619031a1ac5', 'json_data': {'messages': [{'content': "You are a helpful dental assistant. Your name is 'Sia'. You can help patients book, reschedule, or cancel appointments with dentists. You have access to the following tools. IMPORTANT: If the patient's name in the current state is 'New Patient', it means they are a new user. Your first and most important task is to greet them warmly, introduce yourself, and ask for their full name, age, and gender to complete their registration. Once you have this information, you MUST use the `update_patient_profile` tool to save their details. Do not proceed with any other request until the patient is fully registered. After you have successfully fulfilled a user's request (like booking an appointment or answering a question), you must always confirm with the user if there is anything else they need help with. For example, ask 'Is there anything else I can help you with today?'. \nIf the user indicates they are done (e.g., 'no, thanks', 'thats all', 'I am good'), you MUST use the `close_conversation` tool to end the chat. When calling this tool, use the `conversation_id` from the state and set the reason to 'user_confirmed'. VERY IMPORTANT: Before booking, cancelling, or rescheduling any appointment, you MUST call the `get_current_time` tool to know the current date and time. All appointments must be scheduled for a future time relative to the current time. Do not book, cancel or reschedule appointments in the past.\n\n--- Current Patient Information ---\nName: New Patient\nAge: Not provided\nGender: Not provided\nPhone Number: 16315551181\nCurrent Conversation ID: 1\n---------------------------------", 'role': 'system'}, {'content': 'this is a text message', 'role': 'user'}], 'model': 'gpt-4o', 'stream': False, 'tools': [{'type': 'function', 'function': {'name': 'get_current_time', 'description': '\nReturns the current date and time in ISO 8601 format.\nThis must be called before any time-sensitive operations like booking, rescheduling or cancelling\nto ensure the agent has accurate knowledge of the present moment.\n', 'parameters': {'properties': {}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'list_dentists', 'description': "\nRetrieves a list of all available dentists. \nYou can optionally filter the list by specialization (e.g., 'Orthodontist', 'Endodontist').\n", 'parameters': {'properties': {'specialization': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_dentist_profile', 'description': '\nGets the detailed profile of a specific dentist, either by their unique ID or by their name.\nProviding a name will return the first dentist that matches.\n', 'parameters': {'properties': {'dentist_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}, 'name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_availability', 'description': '\nFetches the weekly availability schedule for a specific dentist, identified by their ID.\n', 'parameters': {'properties': {'dentist_id': {'type': 'integer'}}, 'required': ['dentist_id'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'update_patient_profile', 'description': "\nUpdates a patient's profile details (name, age, gender) using their WhatsApp number.\nThis should be used to register the full details of a newly identified patient.\n", 'parameters': {'properties': {'payload': {'description': "Payload to update a patient's profile. Uses whatsapp_number for identification.", 'properties': {'id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': 'Primary key in DB'}, 'name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's full name."}, 'age': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The patient's age."}, 'gender': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's gender."}, 'phone_number': {'type': 'string'}, 'whatsapp_number': {'description': "The patient's WhatsApp number (including country code).", 'type': 'string'}}, 'required': ['phone_number', 'whatsapp_number'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'upcoming_appointments', 'description': '\nReturns a list of all upcoming scheduled appointments for a patient, identified by their WhatsApp number.\n', 'parameters': {'properties': {'patient_whatsapp': {'type': 'string'}}, 'required': ['patient_whatsapp'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'book_appointment', 'description': '\nBooks a new appointment for a patient with a specific dentist at a given time.\nIf the patient does not exist, their name must be provided to create a new patient record.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for booking a new appointment.', 'properties': {'patient_whatsapp': {'description': "The patient's WhatsApp number.", 'type': 'string'}, 'dentist_id': {'description': 'The ID of the dentist for the appointment.', 'type': 'integer'}, 'appointment_time': {'description': "The desired appointment time in ISO 8601 format (e.g., '2025-08-31T14:30:00').", 'type': 'string'}, 'patient_name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's full name (required if the patient is new)."}, 'patient_age': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The patient's age (optional, for new patients)."}, 'patient_gender': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's gender (optional, for new patients)."}}, 'required': ['patient_whatsapp', 'dentist_id', 'appointment_time'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'cancel_appointment', 'description': "\nCancels an existing appointment.\nThis can be done by providing the unique appointment_id, or by providing the patient's WhatsApp number, the dentist's ID, and the appointment time.\n", 'parameters': {'properties': {'payload': {'description': 'Payload for cancelling an appointment. Can use either appointment_id or a combination of other details.', 'properties': {'appointment_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': 'The unique ID of the appointment to cancel.'}, 'patient_whatsapp': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's WhatsApp number (used if appointment_id is unknown)."}, 'dentist_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The dentist's ID (used if appointment_id is unknown)."}, 'appointment_time': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': 'The appointment time in ISO 8601 format (used if appointment_id is unknown).'}}, 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'reschedule_appointment', 'description': '\nReschedules an existing appointment to a new time. Requires the unique appointment_id.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for rescheduling an existing appointment.', 'properties': {'appointment_id': {'description': 'The unique ID of the appointment to reschedule.', 'type': 'integer'}, 'new_appointment_time': {'description': 'The new desired appointment time in ISO 8601 format.', 'type': 'string'}}, 'required': ['appointment_id', 'new_appointment_time'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'close_conversation', 'description': '\nCloses the current conversation when the user has confirmed they have no more requests.\nUse this tool when the user says "no", "that\'s all", "I\'m done", etc.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for closing a conversation.', 'properties': {'conversation_id': {'description': 'The ID of the conversation to close.', 'type': 'integer'}, 'reason': {'default': 'user_confirmed', 'description': 'The reason for closing the conversation.', 'type': 'string'}}, 'required': ['conversation_id'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}]}}
+2026-10-05 20:39:21,579 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.opusmax.pro/v1/chat/completions
+2026-10-05 20:39:21,580 - httpcore.connection - DEBUG - connect_tcp.started host='api.opusmax.pro' port=443 local_address=None timeout=None socket_options=None
+2026-10-05 20:39:21,774 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B4B7620>
+2026-10-05 20:39:21,777 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E229F72850> server_hostname='api.opusmax.pro' timeout=None
+2026-10-05 20:39:21,939 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B3A3D90>
+2026-10-05 20:39:21,940 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-05 20:39:21,940 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-05 20:39:21,940 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-05 20:39:21,941 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-05 20:39:21,941 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-05 20:39:27,230 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Mon, 05 Oct 2026 15:09:27 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'857'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'access-control-allow-credentials', b'true'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'DENY'), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'permissions-policy', b'camera=(), microphone=(), geolocation=()'), (b'x-xss-protection', b'0')])
+2026-10-05 20:39:27,243 - httpx - INFO - HTTP Request: POST https://api.opusmax.pro/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 20:39:27,247 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-05 20:39:27,248 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-05 20:39:27,248 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-05 20:39:27,249 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-05 20:39:27,250 - openai._base_client - DEBUG - HTTP Response: POST https://api.opusmax.pro/v1/chat/completions "200 OK" Headers({'server': 'nginx', 'date': 'Mon, 05 Oct 2026 15:09:27 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '857', 'connection': 'keep-alive', 'vary': 'Origin', 'access-control-allow-credentials': 'true', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'referrer-policy': 'strict-origin-when-cross-origin', 'permissions-policy': 'camera=(), microphone=(), geolocation=()', 'x-xss-protection': '0'})
+2026-10-05 20:39:27,251 - openai._base_client - DEBUG - request_id: None
+2026-10-05 20:39:27,350 - shared.db - DEBUG - Message added to conversation_id=1
+2026-10-05 20:39:27,384 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): graph.facebook.com:443
+2026-10-05 20:39:28,275 - urllib3.connectionpool - DEBUG - https://graph.facebook.com:443 "POST /v22.0/1288547241016536/messages HTTP/1.1" 401 None
+2026-10-05 20:39:28,280 - app.whatsapp - ERROR - Internal Server Error, failed to send message : 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+2026-10-05 20:39:28,280 - app.agent - ERROR - [Agent Error] Failed to process message for conversation 1: 500: Internal Server Error, failed to send message
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 93, in send_message
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\agent.py", line 246, in consume_messages
+    send_message(patient_phone_for_reply, msg.content)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 99, in send_message
+    raise HTTPException(status_code=500, detail="Internal Server Error, failed to send message")
+fastapi.exceptions.HTTPException: 500: Internal Server Error, failed to send message
+2026-10-05 20:39:28,390 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 20:39:32,547 - app.main - DEBUG - Verifying request signature
+2026-10-05 20:39:32,548 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 20:39:32,549 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 20:39:32,549 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '1090322470546816', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556463000', 'phone_number_id': '1288547241016536'}, 'contacts': [{'profile': {'name': '"Divyanshu Dubey"'}, 'wa_id': '919601981524', 'user_id': 'IN.1770560011747210'}], 'messages': [{'from': '919601981524', 'from_user_id': 'IN.1770560011747210', 'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAEhggQUNFODYxQzFGNEIwRjdFRTVBMkU5MDExMjQ2Q0VEREYA', 'timestamp': '1791212971', 'text': {'body': 'Hi'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+2026-10-05 20:39:32,549 - app.main - INFO - Incoming message from 919601981524: Hi
+2026-10-05 20:39:32,549 - app.agent - DEBUG - Enqueueing message from 919601981524
+2026-10-05 20:39:32,553 - shared.db - INFO - Patient created with id=2
+2026-10-05 20:39:32,561 - shared.db - DEBUG - Conversation created with id=2
+2026-10-05 20:39:32,564 - app.agent - INFO - Enqueuing message for patient 2 in conversation 2
+2026-10-05 20:39:32,565 - app.agent - DEBUG - Current state for conversation 2: StateSnapshot(values={}, next=(), config={'configurable': {'thread_id': '2'}}, metadata=None, created_at=None, parent_config=None, tasks=(), interrupts=())
+2026-10-05 20:39:32,565 - app.agent - INFO - No agent state found for conversation 2. Checking DB for history...
+2026-10-05 20:39:32,567 - app.agent - INFO - Updating state for conversation 2 with 0 messages and patient info.
+2026-10-05 20:39:32,569 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 20:39:32,574 - app.agent - DEBUG - Assistant node invoked with state: {'messages': [HumanMessage(content='Hi', additional_kwargs={}, response_metadata={}, id='7c1460dd-4ec4-49ca-95b2-0819ba0c68fd')], 'patient': Patient(id=2, name='New Patient', age=None, gender=None, phone_number='919601981524'), 'conversation_id': 2}
+2026-10-05 20:39:32,577 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'headers': {'X-Stainless-Raw-Response': 'true'}, 'files': None, 'idempotency_key': 'stainless-python-retry-901b6172-577a-4570-8f45-17a4efcc6f51', 'json_data': {'messages': [{'content': "You are a helpful dental assistant. Your name is 'Sia'. You can help patients book, reschedule, or cancel appointments with dentists. You have access to the following tools. IMPORTANT: If the patient's name in the current state is 'New Patient', it means they are a new user. Your first and most important task is to greet them warmly, introduce yourself, and ask for their full name, age, and gender to complete their registration. Once you have this information, you MUST use the `update_patient_profile` tool to save their details. Do not proceed with any other request until the patient is fully registered. After you have successfully fulfilled a user's request (like booking an appointment or answering a question), you must always confirm with the user if there is anything else they need help with. For example, ask 'Is there anything else I can help you with today?'. \nIf the user indicates they are done (e.g., 'no, thanks', 'thats all', 'I am good'), you MUST use the `close_conversation` tool to end the chat. When calling this tool, use the `conversation_id` from the state and set the reason to 'user_confirmed'. VERY IMPORTANT: Before booking, cancelling, or rescheduling any appointment, you MUST call the `get_current_time` tool to know the current date and time. All appointments must be scheduled for a future time relative to the current time. Do not book, cancel or reschedule appointments in the past.\n\n--- Current Patient Information ---\nName: New Patient\nAge: Not provided\nGender: Not provided\nPhone Number: 919601981524\nCurrent Conversation ID: 2\n---------------------------------", 'role': 'system'}, {'content': 'Hi', 'role': 'user'}], 'model': 'gpt-4o', 'stream': False, 'tools': [{'type': 'function', 'function': {'name': 'get_current_time', 'description': '\nReturns the current date and time in ISO 8601 format.\nThis must be called before any time-sensitive operations like booking, rescheduling or cancelling\nto ensure the agent has accurate knowledge of the present moment.\n', 'parameters': {'properties': {}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'list_dentists', 'description': "\nRetrieves a list of all available dentists. \nYou can optionally filter the list by specialization (e.g., 'Orthodontist', 'Endodontist').\n", 'parameters': {'properties': {'specialization': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_dentist_profile', 'description': '\nGets the detailed profile of a specific dentist, either by their unique ID or by their name.\nProviding a name will return the first dentist that matches.\n', 'parameters': {'properties': {'dentist_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}, 'name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}, 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'get_availability', 'description': '\nFetches the weekly availability schedule for a specific dentist, identified by their ID.\n', 'parameters': {'properties': {'dentist_id': {'type': 'integer'}}, 'required': ['dentist_id'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'update_patient_profile', 'description': "\nUpdates a patient's profile details (name, age, gender) using their WhatsApp number.\nThis should be used to register the full details of a newly identified patient.\n", 'parameters': {'properties': {'payload': {'description': "Payload to update a patient's profile. Uses whatsapp_number for identification.", 'properties': {'id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': 'Primary key in DB'}, 'name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's full name."}, 'age': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The patient's age."}, 'gender': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's gender."}, 'phone_number': {'type': 'string'}, 'whatsapp_number': {'description': "The patient's WhatsApp number (including country code).", 'type': 'string'}}, 'required': ['phone_number', 'whatsapp_number'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'upcoming_appointments', 'description': '\nReturns a list of all upcoming scheduled appointments for a patient, identified by their WhatsApp number.\n', 'parameters': {'properties': {'patient_whatsapp': {'type': 'string'}}, 'required': ['patient_whatsapp'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'book_appointment', 'description': '\nBooks a new appointment for a patient with a specific dentist at a given time.\nIf the patient does not exist, their name must be provided to create a new patient record.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for booking a new appointment.', 'properties': {'patient_whatsapp': {'description': "The patient's WhatsApp number.", 'type': 'string'}, 'dentist_id': {'description': 'The ID of the dentist for the appointment.', 'type': 'integer'}, 'appointment_time': {'description': "The desired appointment time in ISO 8601 format (e.g., '2025-08-31T14:30:00').", 'type': 'string'}, 'patient_name': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's full name (required if the patient is new)."}, 'patient_age': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The patient's age (optional, for new patients)."}, 'patient_gender': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's gender (optional, for new patients)."}}, 'required': ['patient_whatsapp', 'dentist_id', 'appointment_time'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'cancel_appointment', 'description': "\nCancels an existing appointment.\nThis can be done by providing the unique appointment_id, or by providing the patient's WhatsApp number, the dentist's ID, and the appointment time.\n", 'parameters': {'properties': {'payload': {'description': 'Payload for cancelling an appointment. Can use either appointment_id or a combination of other details.', 'properties': {'appointment_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': 'The unique ID of the appointment to cancel.'}, 'patient_whatsapp': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': "The patient's WhatsApp number (used if appointment_id is unknown)."}, 'dentist_id': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None, 'description': "The dentist's ID (used if appointment_id is unknown)."}, 'appointment_time': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None, 'description': 'The appointment time in ISO 8601 format (used if appointment_id is unknown).'}}, 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'reschedule_appointment', 'description': '\nReschedules an existing appointment to a new time. Requires the unique appointment_id.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for rescheduling an existing appointment.', 'properties': {'appointment_id': {'description': 'The unique ID of the appointment to reschedule.', 'type': 'integer'}, 'new_appointment_time': {'description': 'The new desired appointment time in ISO 8601 format.', 'type': 'string'}}, 'required': ['appointment_id', 'new_appointment_time'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}, {'type': 'function', 'function': {'name': 'close_conversation', 'description': '\nCloses the current conversation when the user has confirmed they have no more requests.\nUse this tool when the user says "no", "that\'s all", "I\'m done", etc.\n', 'parameters': {'properties': {'payload': {'description': 'Payload for closing a conversation.', 'properties': {'conversation_id': {'description': 'The ID of the conversation to close.', 'type': 'integer'}, 'reason': {'default': 'user_confirmed', 'description': 'The reason for closing the conversation.', 'type': 'string'}}, 'required': ['conversation_id'], 'type': 'object'}}, 'required': ['payload'], 'type': 'object'}}}]}}
+2026-10-05 20:39:32,579 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.opusmax.pro/v1/chat/completions
+2026-10-05 20:39:32,580 - httpcore.connection - DEBUG - close.started
+2026-10-05 20:39:32,580 - httpcore.connection - DEBUG - close.complete
+2026-10-05 20:39:32,580 - httpcore.connection - DEBUG - connect_tcp.started host='api.opusmax.pro' port=443 local_address=None timeout=None socket_options=None
+2026-10-05 20:39:32,691 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B515590>
+2026-10-05 20:39:32,691 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E229F72850> server_hostname='api.opusmax.pro' timeout=None
+2026-10-05 20:39:32,820 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B5190F0>
+2026-10-05 20:39:32,820 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-05 20:39:32,820 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-05 20:39:32,820 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-05 20:39:32,821 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-05 20:39:32,821 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-05 20:39:37,306 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Mon, 05 Oct 2026 15:09:37 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'664'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'access-control-allow-credentials', b'true'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'DENY'), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'permissions-policy', b'camera=(), microphone=(), geolocation=()'), (b'x-xss-protection', b'0')])
+2026-10-05 20:39:37,307 - httpx - INFO - HTTP Request: POST https://api.opusmax.pro/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 20:39:37,307 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-05 20:39:37,307 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-05 20:39:37,307 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-05 20:39:37,307 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-05 20:39:37,307 - openai._base_client - DEBUG - HTTP Response: POST https://api.opusmax.pro/v1/chat/completions "200 OK" Headers({'server': 'nginx', 'date': 'Mon, 05 Oct 2026 15:09:37 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '664', 'connection': 'keep-alive', 'vary': 'Origin', 'access-control-allow-credentials': 'true', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'referrer-policy': 'strict-origin-when-cross-origin', 'permissions-policy': 'camera=(), microphone=(), geolocation=()', 'x-xss-protection': '0'})
+2026-10-05 20:39:37,308 - openai._base_client - DEBUG - request_id: None
+2026-10-05 20:39:37,314 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 20:39:37,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): graph.facebook.com:443
+2026-10-05 20:39:38,482 - urllib3.connectionpool - DEBUG - https://graph.facebook.com:443 "POST /v22.0/1288547241016536/messages HTTP/1.1" 401 None
+2026-10-05 20:39:38,482 - app.whatsapp - ERROR - Internal Server Error, failed to send message : 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+2026-10-05 20:39:38,482 - app.agent - ERROR - [Agent Error] Failed to process message for conversation 2: 500: Internal Server Error, failed to send message
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 93, in send_message
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\agent.py", line 246, in consume_messages
+    send_message(patient_phone_for_reply, msg.content)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 99, in send_message
+    raise HTTPException(status_code=500, detail="Internal Server Error, failed to send message")
+fastapi.exceptions.HTTPException: 500: Internal Server Error, failed to send message
+2026-10-05 20:39:38,485 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 20:40:11,776 - app.main - DEBUG - Verifying request signature
+2026-10-05 20:40:11,776 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 20:40:11,777 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 20:40:11,777 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '1090322470546816', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556463000', 'phone_number_id': '1288547241016536'}, 'contacts': [{'profile': {'name': '"Divyanshu Dubey"'}, 'wa_id': '919601981524', 'user_id': 'IN.1770560011747210'}], 'messages': [{'from': '919601981524', 'from_user_id': 'IN.1770560011747210', 'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAEhggQUM1QzE3OTAxNEJDREIxQUQ3QjkwNDQ3QkIwMkY1MzcA', 'timestamp': '1791213010', 'text': {'body': 'Hiii'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+2026-10-05 20:40:11,777 - app.main - INFO - Incoming message from 919601981524: Hiii
+2026-10-05 20:40:11,777 - app.agent - DEBUG - Enqueueing message from 919601981524
+2026-10-05 20:40:11,794 - app.agent - INFO - Enqueuing message for patient 2 in conversation 2
+2026-10-05 20:40:12,172 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 20:40:12,396 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.opusmax.pro/v1/chat/completions
+2026-10-05 20:40:12,397 - httpcore.connection - DEBUG - close.started
+2026-10-05 20:40:12,397 - httpcore.connection - DEBUG - close.complete
+2026-10-05 20:40:12,397 - httpcore.connection - DEBUG - connect_tcp.started host='api.opusmax.pro' port=443 local_address=None timeout=None socket_options=None
+2026-10-05 20:40:12,531 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B519CD0>
+2026-10-05 20:40:12,531 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001E229F72850> server_hostname='api.opusmax.pro' timeout=None
+2026-10-05 20:40:12,659 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001E22B5128D0>
+2026-10-05 20:40:12,659 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-05 20:40:12,660 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-05 20:40:12,660 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-05 20:40:12,661 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-05 20:40:12,661 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-05 20:40:16,639 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Mon, 05 Oct 2026 15:10:17 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'642'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'access-control-allow-credentials', b'true'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'DENY'), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'permissions-policy', b'camera=(), microphone=(), geolocation=()'), (b'x-xss-protection', b'0')])
+2026-10-05 20:40:16,640 - httpx - INFO - HTTP Request: POST https://api.opusmax.pro/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 20:40:16,640 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-05 20:40:16,640 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-05 20:40:16,640 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-05 20:40:16,640 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-05 20:40:16,640 - openai._base_client - DEBUG - HTTP Response: POST https://api.opusmax.pro/v1/chat/completions "200 OK" Headers({'server': 'nginx', 'date': 'Mon, 05 Oct 2026 15:10:17 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '642', 'connection': 'keep-alive', 'vary': 'Origin', 'access-control-allow-credentials': 'true', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'referrer-policy': 'strict-origin-when-cross-origin', 'permissions-policy': 'camera=(), microphone=(), geolocation=()', 'x-xss-protection': '0'})
+2026-10-05 20:40:16,640 - openai._base_client - DEBUG - request_id: None
+2026-10-05 20:40:16,646 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 20:40:16,650 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): graph.facebook.com:443
+2026-10-05 20:40:17,757 - urllib3.connectionpool - DEBUG - https://graph.facebook.com:443 "POST /v22.0/1288547241016536/messages HTTP/1.1" 401 None
+2026-10-05 20:40:17,757 - app.whatsapp - ERROR - Internal Server Error, failed to send message : 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+2026-10-05 20:40:17,757 - app.agent - ERROR - [Agent Error] Failed to process message for conversation 2: 500: Internal Server Error, failed to send message
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 93, in send_message
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\.venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://graph.facebook.com/v22.0/1288547241016536/messages
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\agent.py", line 246, in consume_messages
+    send_message(patient_phone_for_reply, msg.content)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\whatsapp.py", line 99, in send_message
+    raise HTTPException(status_code=500, detail="Internal Server Error, failed to send message")
+fastapi.exceptions.HTTPException: 500: Internal Server Error, failed to send message
+2026-10-05 20:40:17,760 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 20:56:15,248 - root - INFO - Logging configured. File level: DEBUG, Console level: INFO
+2026-10-05 20:56:15,250 - app.main - INFO - Starting FastAPI server...
+2026-10-05 20:56:15,254 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 20:56:15,313 - app.main - INFO - Starting agent consumer process in the background...
+2026-10-05 20:56:15,313 - app.agent - INFO - Checking and initializing database...
+2026-10-05 20:56:15,322 - shared.db - INFO - Dentists already present, skipping seeding.
+2026-10-05 20:56:16,083 - app.agent - DEBUG - Loaded MCP tools: ['get_current_time', 'list_dentists', 'get_dentist_profile', 'get_availability', 'update_patient_profile', 'upcoming_appointments', 'book_appointment', 'cancel_appointment', 'reschedule_appointment', 'close_conversation']
+2026-10-05 20:56:16,083 - app.agent - INFO - Creating agent graph...
+2026-10-05 20:56:17,206 - app.agent - INFO - Starting message consumer...
+2026-10-05 20:56:17,206 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 20:56:17,206 - app.agent - INFO - Starting conversation cleanup task...
+2026-10-05 21:04:23,776 - app.main - INFO - Received a GET request on /webhook for verification
+2026-10-05 21:04:23,782 - app.main - INFO - whatsapp webhook verified successfully
+2026-10-05 21:06:39,520 - app.main - DEBUG - Verifying request signature
+2026-10-05 21:06:39,535 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 21:06:39,578 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 21:06:39,581 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '1090322470546816', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556463000', 'phone_number_id': '1288547241016536'}, 'contacts': [{'profile': {'name': '"Divyanshu Dubey"'}, 'wa_id': '919601981524', 'user_id': 'IN.1770560011747210'}], 'messages': [{'from': '919601981524', 'from_user_id': 'IN.1770560011747210', 'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAEhggQUNCMjFFOERFNEVCMEZFNjIwODcxNjVDRkU1MkM2RjYA', 'timestamp': '1791214598', 'text': {'body': 'Hii'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+2026-10-05 21:06:39,582 - app.main - INFO - Incoming message from 919601981524: Hii
+2026-10-05 21:06:39,584 - app.agent - DEBUG - Enqueueing message from 919601981524
+2026-10-05 21:06:39,607 - app.agent - INFO - Enqueuing message for patient 2 in conversation 2
+2026-10-05 21:06:39,628 - app.agent - DEBUG - Current state for conversation 2: StateSnapshot(values={}, next=(), config={'configurable': {'thread_id': '2'}}, metadata=None, created_at=None, parent_config=None, tasks=(), interrupts=())
+2026-10-05 21:06:39,628 - app.agent - INFO - No agent state found for conversation 2. Checking DB for history...
+2026-10-05 21:06:39,638 - app.agent - INFO - Updating state for conversation 2 with 4 messages and patient info.
+2026-10-05 21:06:39,675 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 21:06:39,946 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.opusmax.pro/v1/chat/completions
+2026-10-05 21:06:39,948 - httpcore.connection - DEBUG - connect_tcp.started host='api.opusmax.pro' port=443 local_address=None timeout=None socket_options=None
+2026-10-05 21:06:40,080 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A65590BE00>
+2026-10-05 21:06:40,082 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001A6543C2850> server_hostname='api.opusmax.pro' timeout=None
+2026-10-05 21:06:40,249 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001A65596B250>
+2026-10-05 21:06:40,250 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-05 21:06:40,251 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-05 21:06:40,251 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-05 21:06:40,252 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-05 21:06:40,252 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-05 21:06:44,673 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Mon, 05 Oct 2026 15:36:45 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'637'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'access-control-allow-credentials', b'true'), (b'x-content-type-options', b'nosniff'), (b'x-frame-options', b'DENY'), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'permissions-policy', b'camera=(), microphone=(), geolocation=()'), (b'x-xss-protection', b'0')])
+2026-10-05 21:06:44,676 - httpx - INFO - HTTP Request: POST https://api.opusmax.pro/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 21:06:44,676 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-05 21:06:44,677 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-05 21:06:44,677 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-05 21:06:44,677 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-05 21:06:44,678 - openai._base_client - DEBUG - HTTP Response: POST https://api.opusmax.pro/v1/chat/completions "200 OK" Headers({'server': 'nginx', 'date': 'Mon, 05 Oct 2026 15:36:45 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '637', 'connection': 'keep-alive', 'vary': 'Origin', 'access-control-allow-credentials': 'true', 'x-content-type-options': 'nosniff', 'x-frame-options': 'DENY', 'referrer-policy': 'strict-origin-when-cross-origin', 'permissions-policy': 'camera=(), microphone=(), geolocation=()', 'x-xss-protection': '0'})
+2026-10-05 21:06:44,678 - openai._base_client - DEBUG - request_id: None
+2026-10-05 21:06:44,708 - shared.db - DEBUG - Message added to conversation_id=2
+2026-10-05 21:06:44,722 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): graph.facebook.com:443
+2026-10-05 21:06:46,692 - urllib3.connectionpool - DEBUG - https://graph.facebook.com:443 "POST /v22.0/1288547241016536/messages HTTP/1.1" 200 None
+2026-10-05 21:06:46,696 - app.whatsapp - DEBUG - send_message - status: 200
+2026-10-05 21:06:46,709 - app.agent - DEBUG - Waiting for new message in queue...
+2026-10-05 21:06:48,821 - app.main - DEBUG - Verifying request signature
+2026-10-05 21:06:48,821 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 21:06:48,823 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 21:06:48,823 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '1090322470546816', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556463000', 'phone_number_id': '1288547241016536'}, 'contacts': [{'wa_id': '919601981524', 'user_id': 'IN.1770560011747210'}], 'statuses': [{'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAERgSMzFEQTk0MDc3NzQwMUJEQjRFAA==', 'status': 'sent', 'timestamp': '1791214607', 'recipient_id': '919601981524', 'recipient_user_id': 'IN.1770560011747210', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+2026-10-05 21:06:48,823 - app.whatsapp - DEBUG - WhatsApp Status - {'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAERgSMzFEQTk0MDc3NzQwMUJEQjRFAA==', 'status': 'sent', 'timestamp': '1791214607', 'recipient_id': '919601981524', 'recipient_user_id': 'IN.1770560011747210', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}
+2026-10-05 21:06:48,823 - app.main - DEBUG - Received a WhatsApp status update event. status = sent
+2026-10-05 21:06:51,065 - app.main - DEBUG - Verifying request signature
+2026-10-05 21:06:51,065 - asyncio - DEBUG - Using proactor: IocpProactor
+2026-10-05 21:06:51,066 - app.main - DEBUG - Received a POST request on /webhook
+2026-10-05 21:06:51,066 - app.main - DEBUG - request body: {'object': 'whatsapp_business_account', 'entry': [{'id': '1090322470546816', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556463000', 'phone_number_id': '1288547241016536'}, 'contacts': [{'wa_id': '919601981524', 'user_id': 'IN.1770560011747210'}], 'statuses': [{'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAERgSMzFEQTk0MDc3NzQwMUJEQjRFAA==', 'status': 'delivered', 'timestamp': '1791214608', 'recipient_id': '919601981524', 'recipient_user_id': 'IN.1770560011747210', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+2026-10-05 21:06:51,066 - app.whatsapp - DEBUG - WhatsApp Status - {'id': 'wamid.HBgMOTE5NjAxOTgxNTI0FQIAERgSMzFEQTk0MDc3NzQwMUJEQjRFAA==', 'status': 'delivered', 'timestamp': '1791214608', 'recipient_id': '919601981524', 'recipient_user_id': 'IN.1770560011747210', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}
+2026-10-05 21:06:51,067 - app.main - DEBUG - Received a WhatsApp status update event. status = delivered
+2026-10-05 21:26:17,222 - app.agent - INFO - Running conversation cleanup task...
+2026-10-05 21:26:17,302 - app.agent - DEBUG - Current active threads in checkpointer: {'2'}
+2026-10-05 21:56:17,410 - app.agent - INFO - Running conversation cleanup task...
+2026-10-05 21:56:17,480 - app.agent - DEBUG - Current active threads in checkpointer: {'2'}
+2026-10-05 21:56:17,647 - app.agent - INFO - Conversation thread 2 has timed out.
+2026-10-05 21:56:17,674 - app.agent - ERROR - Error during cleanup for thread 2: no such table: conversations
+Traceback (most recent call last):
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\app\agent.py", line 318, in conversation_cleanup_task
+    conversation = db.get_conversation(int(thread_id))
+  File "C:\Users\DIVYANSHU\Desktop\DentalDesk\src\shared\db.py", line 166, in get_conversation
+    row = conn.execute("SELECT * FROM conversations WHERE id=?", (conversation_id,)).fetchone()
+          ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: conversations

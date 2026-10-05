@@ -1,0 +1,52 @@
+2026-10-05 19:21:03,439 [INFO] dentaldesk_mcp.server: MCP server starting (stdio transport). Verbose=False
+2026-10-05 19:21:03,494 [INFO] shared.db: Seeded 5 dentists.
+2026-10-05 19:21:03,529 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 19:21:03,535 [INFO] mcp.server.lowlevel.server: Processing request of type CallToolRequest
+2026-10-05 19:24:57,561 [INFO] dentaldesk_mcp.server: MCP server starting (stdio transport). Verbose=True
+2026-10-05 19:24:57,562 [INFO] shared.db: Dentists already present, skipping seeding.
+2026-10-05 19:24:57,569 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-10-05 19:24:57,584 [DEBUG] mcp.server.lowlevel.server: Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-10-05 19:24:57,585 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000002092C1AA710>
+2026-10-05 19:24:57,586 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 19:24:57,586 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 19:24:57,587 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 19:24:57,589 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000002092C0DFC50>
+2026-10-05 19:24:57,589 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 19:24:57,589 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 19:24:57,590 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 19:24:57,593 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000002092C083BB0>
+2026-10-05 19:24:57,593 [INFO] mcp.server.lowlevel.server: Processing request of type GetPromptRequest
+2026-10-05 19:24:57,594 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type GetPromptRequest
+2026-10-05 19:24:57,595 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 19:58:35,222 [INFO] dentaldesk_mcp.server: MCP server starting (stdio transport). Verbose=True
+2026-10-05 19:58:35,225 [INFO] shared.db: Dentists already present, skipping seeding.
+2026-10-05 19:58:35,229 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-10-05 19:58:35,238 [DEBUG] mcp.server.lowlevel.server: Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-10-05 19:58:35,238 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x0000022A8C4BA710>
+2026-10-05 19:58:35,238 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 19:58:35,238 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 19:58:35,239 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 19:58:35,242 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x0000022A8C3EFC50>
+2026-10-05 19:58:35,242 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 19:58:35,242 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 19:58:35,242 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 19:58:35,244 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x0000022A8C3A3BB0>
+2026-10-05 19:58:35,244 [INFO] mcp.server.lowlevel.server: Processing request of type GetPromptRequest
+2026-10-05 19:58:35,244 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type GetPromptRequest
+2026-10-05 19:58:35,244 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 20:56:16,065 [INFO] dentaldesk_mcp.server: MCP server starting (stdio transport). Verbose=True
+2026-10-05 20:56:16,067 [INFO] shared.db: Dentists already present, skipping seeding.
+2026-10-05 20:56:16,072 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-10-05 20:56:16,081 [DEBUG] mcp.server.lowlevel.server: Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2026-10-05 20:56:16,082 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000001D1EEF4A350>
+2026-10-05 20:56:16,082 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 20:56:16,082 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 20:56:16,082 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 20:56:16,085 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000001D1EEF4AE90>
+2026-10-05 20:56:16,085 [INFO] mcp.server.lowlevel.server: Processing request of type ListToolsRequest
+2026-10-05 20:56:16,085 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type ListToolsRequest
+2026-10-05 20:56:16,086 [DEBUG] mcp.server.lowlevel.server: Response sent
+2026-10-05 20:56:16,087 [DEBUG] mcp.server.lowlevel.server: Received message: <mcp.shared.session.RequestResponder object at 0x000001D1EEE23BB0>
+2026-10-05 20:56:16,087 [INFO] mcp.server.lowlevel.server: Processing request of type GetPromptRequest
+2026-10-05 20:56:16,088 [DEBUG] mcp.server.lowlevel.server: Dispatching request of type GetPromptRequest
+2026-10-05 20:56:16,088 [DEBUG] mcp.server.lowlevel.server: Response sent
